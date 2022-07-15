@@ -20,3 +20,20 @@ body {
     align-items: center;
     margin: auto 0;
 }
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    margin-top: 0;
+    font-size: 15px;
+    font-style: italic;
+}
+
+p {
+    font-size: 18px;
+    font-family: Apple Chancery, cursive;
+}
