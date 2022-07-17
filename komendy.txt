@@ -1,1 +1,10 @@
-node_modules/.bin/html-validate start --server --files "*.html"
+`{
+"extends": [
+"html-validate:recommended"
+],
+
+"rules": {
+"close-order": "error",
+"void": ["warn", {"style": "omit"}]
+}
+}`
